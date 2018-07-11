@@ -21,8 +21,6 @@ public class levelScript : MonoBehaviour
     void Start()
     {
         level = 0;
-
-
     }
 
 	// Update is called once per frame

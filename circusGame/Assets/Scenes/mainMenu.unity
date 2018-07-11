@@ -385,6 +385,7 @@ MonoBehaviour:
   restarted: 0
   gameOverPanel: {fileID: 0}
   scorePanel: {fileID: 0}
+  data: {fileID: 0}
 --- !u!4 &391650803
 Transform:
   m_ObjectHideFlags: 0
@@ -484,7 +485,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &392141432
@@ -1011,7 +1012,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &902675723
@@ -1694,7 +1695,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1530138755
@@ -1923,6 +1924,7 @@ MonoBehaviour:
     type: 2}
   whiteBalloon: {fileID: 1370869889916726, guid: 369ca04ae3c559442b4cb863b95d5bda,
     type: 2}
+  timer: 0
 --- !u!61 &1960502307
 BoxCollider2D:
   m_ObjectHideFlags: 0

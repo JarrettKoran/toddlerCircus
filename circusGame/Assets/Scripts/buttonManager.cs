@@ -36,7 +36,6 @@ using System.IO;
 
 }
 */
-using Vuforia;
 
 public class buttonManager : MonoBehaviour {
 

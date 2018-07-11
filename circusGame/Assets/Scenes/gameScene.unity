@@ -2811,6 +2811,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1379258444}
+  - component: {fileID: 1379258445}
   m_Layer: 0
   m_Name: scoreManager
   m_TagString: Untagged
@@ -2831,6 +2832,20 @@ Transform:
   m_Father: {fileID: 1487843832}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1379258445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1379258443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ad2b73900c0554cb519f8d54d95865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreUI: {fileID: 1541539042}
+  scoreText: {fileID: 1525525327}
+  livesText: {fileID: 834104052}
 --- !u!1 &1433833539
 GameObject:
   m_ObjectHideFlags: 0
@@ -3583,6 +3598,7 @@ MonoBehaviour:
   currLevel: 0
   balloonsLeft: 10
   balloonsPopped: 0
+  timer: 0
 --- !u!61 &1637883735
 BoxCollider2D:
   m_ObjectHideFlags: 0
