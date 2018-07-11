@@ -1,0 +1,1 @@
+{"Level":1.0,"TimeBetweenBalloons":2.35126519,"TimeToOrient":0.7565658,"Fixation Time":1.73652458,"Times Played":1.0}
