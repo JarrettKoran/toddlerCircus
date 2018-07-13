@@ -13,25 +13,61 @@ public class crosshairScript : MonoBehaviour {
     public Dictionary<Collider2D, float> collidingObjects;
     public DataLogger data;
 
+    public bool fixLoss;
+    private bool newFixLoss = true;
+    private float fixationTime = 0;
+    public int lossAmnt;
+
 	// Use this for initialization
 	void Start () {
         collidingObjects = new Dictionary<Collider2D, float>();
 		balloonExitTime = Time.time;
+
+        fixLoss = false;
+        lossAmnt = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-        //Vector3 screenPoint = TobiiAPI.GetGazePoint().Screen;
-        //screenPoint.z = 1f;
-        //this.transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
+        Vector3 screenPoint = TobiiAPI.GetGazePoint().Screen;
+        screenPoint.z = 1f;
+        this.transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
+        
 
         // if(!GameObject.Find("PauseMenu").GetComponent<pauseMenu>().gamePaused) 
         // {
-        Vector3 temp = Input.mousePosition;
+        /*Vector3 temp = Input.mousePosition;
         temp.z = 10f; // Set this to be the distance you want the object to be placed in front of the camera.
-        this.transform.position = Camera.main.ScreenToWorldPoint(temp);
+        this.transform.position = Camera.main.ScreenToWorldPoint(temp);*/
         // }
+
+        GazePoint gaze = TobiiAPI.GetGazePoint();
+        if(gaze.IsRecent())
+        {
+            if(gaze.Screen.x < 0 || gaze.Screen.y < 0)
+            {
+                fixLoss = true;
+                lossAmnt++;
+                if(newFixLoss)
+                {
+                    newFixLoss = false;
+                    fixationTime = Time.time;
+                }
+            }
+            else
+            {
+                fixLoss = false;
+                if(!newFixLoss)
+                {
+                    data.LogEntry("Fixation Loss", Time.time - fixationTime);
+                    newFixLoss = true;
+                }
+                
+            }
+        }
+        
+
     }
 
 	void OnTriggerEnter2D(Collider2D other){

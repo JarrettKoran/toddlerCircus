@@ -41,9 +41,18 @@ public class DataLogger : MonoBehaviour {
         {
 			if(keys[i] == "Level")
 			{
-				avgData[keys [i]] = totalData[keys[i]][totalData[keys[i]].Count - 1];
+				avgData[keys[i]] = totalData[keys[i]][totalData[keys[i]].Count - 1];
 				continue;
 			}
+            else if(keys[i] == "Fixation Loss")
+            {
+                float tot = 0;
+                for(int j = 0; j < totalData[keys[i]].Count; j++)
+                {
+                    tot += totalData[keys[i]][j];
+                }
+                avgData[keys[i]] = tot;
+            }
 			//total all data underneath a singular key
             float total = 0.0f;
             for (int j = 0; j < totalData[keys[i]].Count; j++)
