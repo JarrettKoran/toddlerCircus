@@ -13,6 +13,8 @@ public class crosshairScript : MonoBehaviour {
     public Dictionary<Collider2D, float> collidingObjects;
     public DataLogger data;
 
+    public AudioSource stretch;
+
     public bool fixLoss;
     private bool newFixLoss = true;
     private float fixationTime = 0;
@@ -22,6 +24,7 @@ public class crosshairScript : MonoBehaviour {
 	void Start () {
         collidingObjects = new Dictionary<Collider2D, float>();
 		balloonExitTime = Time.time;
+        stretch = GetComponent<AudioSource>();
 
         fixLoss = false;
         lossAmnt = 0;
@@ -76,7 +79,7 @@ public class crosshairScript : MonoBehaviour {
         float timeOfEntry = Time.time;
         collidingObjects.Add(other, timeOfEntry);
         count++;
-
+        stretch.Play();
         //Log how long its been since last contact has been from last balloon
         data.LogEntry("Time Between Balloons", (Time.time - balloonExitTime));
         //Debug.Log("Count is: " + count);
@@ -100,5 +103,6 @@ public class crosshairScript : MonoBehaviour {
         collidingObjects.Remove(other);
         //Set the exit time
         balloonExitTime = Time.time;
+        stretch.Pause();
 	}
 }
