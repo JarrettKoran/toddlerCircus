@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BackgroundMusic : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class BackgroundMusic : MonoBehaviour
         }
         else
         {
-            bgm.volume = .8;
+            bgm.volume = .8f;
         }
 
     }
