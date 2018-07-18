@@ -52,6 +52,7 @@ public class DataLogger : MonoBehaviour {
                     tot += totalData[keys[i]][j];
                 }
                 avgData[keys[i]] = tot;
+				continue;
             }
 			//total all data underneath a singular key
             float total = 0.0f;
