@@ -95,7 +95,7 @@ public class buttonManager : MonoBehaviour {
 
 	private string header()
 	{
-		return "Level,Time Between Balloons,Time To Orient,Fixation Time, Times Played\n";
+		return "Level,Time Between Balloons,Time To Orient,Fixation Time, Fixation Loss, Times Played\n";
 	}
 	 
 	private string addItem(Dictionary<string,float> dic, string find, bool addComma)
@@ -119,6 +119,7 @@ public class buttonManager : MonoBehaviour {
 		dataLine += addItem (averageData, "Time Between Balloons", true);
 		dataLine += addItem (averageData, "Time To Orient", true);
 		dataLine += addItem (averageData, "Fixation Time", true);
+        dataLine += addItem(averageData, "Fixation Loss", true);
 		dataLine += addItem (averageData, "Times Played", false);
 		return dataLine;
 	}
