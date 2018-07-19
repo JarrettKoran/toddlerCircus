@@ -86,27 +86,27 @@ public class BalloonSpawn : MonoBehaviour {
                
                 if (green)
                 {
-                    Instantiate(greenBalloon, new Vector3(Random.Range(-8f, 7f),
+                    Instantiate(greenBalloon, new Vector3(Random.Range(-9f, 2.75f),
                             this.transform.position.y, this.transform.position.z), Quaternion.identity);
                 }
                 else if (red)
                 {
-                    Instantiate(redBalloon, new Vector3(Random.Range(-8f, 7f),
+                    Instantiate(redBalloon, new Vector3(Random.Range(-9f, 2.75f),
                             this.transform.position.y, this.transform.position.z), Quaternion.identity);
                 }
                 else if (blue)
                 {
-                    Instantiate(blueBalloon, new Vector3(Random.Range(-8f, 7f),
+                    Instantiate(blueBalloon, new Vector3(Random.Range(-9f, 2.75f),
                             this.transform.position.y, this.transform.position.z), Quaternion.identity);
                 }
                 else if (white)
                 {
-                    Instantiate(whiteBalloon, new Vector3(Random.Range(-8f, 7f),
+                    Instantiate(whiteBalloon, new Vector3(Random.Range(-9f, 2.75f),
                             this.transform.position.y, this.transform.position.z), Quaternion.identity);
                 }
                 else if (yellow)
                 {
-                    Instantiate(yellowBalloon, new Vector3(Random.Range(-8f, 7f),
+                    Instantiate(yellowBalloon, new Vector3(Random.Range(-9f, 2.75f),
                             this.transform.position.y, this.transform.position.z), Quaternion.identity);
                 }
             }
