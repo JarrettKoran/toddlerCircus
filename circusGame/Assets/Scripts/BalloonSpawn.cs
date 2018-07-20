@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BalloonSpawn : MonoBehaviour {
 
-	 private float nextActionTime = 0.0f;
-	 public float period = 5f;
+	 public float nextActionTime = 0.0f;
+    public float period = 5.0f;   
 
 	 public Object greenBalloon;
 	 public Object redBalloon;

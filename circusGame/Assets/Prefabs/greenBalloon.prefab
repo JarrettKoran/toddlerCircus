@@ -69,6 +69,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pop: {fileID: 1919227999864500, guid: 65c82ab6d3f22914f93e888db517f106, type: 2}
+  timeBalloonSpawned: 0
+  balloonShrunk: 0
+  timeToFindBalloon: 0
+  data: {fileID: 0}
+  moving: 0
 --- !u!212 &212210414114201344
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -109,7 +114,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.12, y: 5.12}
+  m_Size: {x: 2.18, y: 2.23}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

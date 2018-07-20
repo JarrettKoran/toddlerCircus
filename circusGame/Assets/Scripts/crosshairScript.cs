@@ -42,7 +42,7 @@ public class crosshairScript : MonoBehaviour {
        //  if(!GameObject.Find("PauseMenu").GetComponent<pauseMenu>().gamePaused) 
        //  {
        // Vector3 temp = Input.mousePosition;
-       // temp.z = 10f; // Set this to be the distance you want the object to be placed in front of the camera.
+      //  temp.z = 10f; // Set this to be the distance you want the object to be placed in front of the camera.
        // this.transform.position = Camera.main.ScreenToWorldPoint(temp);
        //  } 
 
@@ -86,15 +86,17 @@ public class crosshairScript : MonoBehaviour {
 
 	}
 	void OnTriggerStay2D(Collider2D other){
+        other.GetComponent<balloonBehavior>().moving = false;
         //Decrease size of object (balloon) while looked at
         if (other.transform.localScale.x >.1 && other.tag != "Respawn")
         {
             other.transform.localScale -= new Vector3(.007f, .007f, 0);
         }
         //Debug.Log("This is happening " + collidingObjects[other]);
-
+        
 	}
 	void OnTriggerExit2D(Collider2D other){
+        other.GetComponent<balloonBehavior>().moving = true;
         //Collect how long an object was looked at, log the data, then remove object from dictionary to clear space.
         collidingObjects[other] = (Time.time - collidingObjects[other]);
         //Debug.Log("Final fixation time: " + collidingObjects[other]);

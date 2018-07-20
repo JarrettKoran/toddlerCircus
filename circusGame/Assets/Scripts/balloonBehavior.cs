@@ -12,6 +12,8 @@ public class balloonBehavior : MonoBehaviour
     public float timeToFindBalloon;
     public DataLogger data;
 
+    public bool moving;
+
 
     // Use this for initialization
     void Start()
@@ -19,6 +21,8 @@ public class balloonBehavior : MonoBehaviour
         timeBalloonSpawned = Time.time;
         balloonShrunk = false;
         timeToFindBalloon = 0.0f;
+
+        moving = true;
 
         GameObject go = GameObject.Find("DataManager");
         //Logger logger = go.GetComponent<Logger>();
@@ -31,7 +35,7 @@ public class balloonBehavior : MonoBehaviour
     {
 
 
-        if (Time.timeScale == 1.0f)
+        if (Time.timeScale == 1.0f && moving)
             this.transform.Translate(0, .03f, 0);
         //time it takes to find balloon
         if (this.transform.localScale.x < 1 && balloonShrunk == false)
