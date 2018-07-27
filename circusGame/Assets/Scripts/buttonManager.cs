@@ -150,6 +150,7 @@ public class buttonManager : MonoBehaviour {
     }
     public void GameOver() {
         Time.timeScale = 0.0f;
+        Cursor.visible = true;
         scorePanel.SetActive(false);
     	gameOverPanel.SetActive(true);
         
@@ -157,7 +158,8 @@ public class buttonManager : MonoBehaviour {
     public void restart() {
         restarted = true;
 		data.LogAverages();
-		string ad = JsonConvert.SerializeObject(data.avgData);
+        Cursor.visible = false;
+        string ad = JsonConvert.SerializeObject(data.avgData);
 		File.AppendAllText(PlayerPrefs.GetString("filename"), ad + "\n");
 		File.AppendAllText(PlayerPrefs.GetString("CSVName"), recordData(data.avgData) + "\n");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

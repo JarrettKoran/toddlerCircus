@@ -28,7 +28,8 @@ public class pauseMenu : MonoBehaviour {
     }
         public void Resume ()
         {
-            Cursor.visible = false;
+            if (!GameObject.Find("ButtonManager").GetComponent<buttonManager>().gameOver)
+                Cursor.visible = false;
             pauseMenuUI.SetActive(false);
             Time.timeScale = 1.0f;
             gamePaused = false;

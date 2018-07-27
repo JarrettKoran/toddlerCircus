@@ -6,3 +6,4 @@
 {"Level":1.0,"Time Between Balloons":1.13597679,"Fixation Loss":1.39847946,"Fixation Time":0.90871793,"Time To Orient":3.37603927,"Times Played":36.0}
 {"Level":1.0,"Time Between Balloons":0.617423356,"Time To Orient":2.60778379,"Fixation Time":0.5771801,"Fixation Loss":0.285625458,"Times Played":37.0}
 {"Level":1.0,"Time Between Balloons":0.318771362,"Fixation Loss":2.375496,"Fixation Time":0.521649659,"Time To Orient":1.993433,"Times Played":38.0}
+{"Level":4.0,"Time Between Balloons":0.910354853,"Time To Orient":1.06792426,"Fixation Loss":9.767632,"Fixation Time":0.3545467,"Times Played":61.0}
