@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0d91431311514164c808d9c210a2868d
+timeCreated: 1488597610
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mousePos: {instanceID: 0}
+  - anim: {instanceID: 0}
+  - bullet: {instanceID: 0}
+  - footSteps: {fileID: 8300000, guid: db6b2bd5d42139e48bffd6f8243b6675, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

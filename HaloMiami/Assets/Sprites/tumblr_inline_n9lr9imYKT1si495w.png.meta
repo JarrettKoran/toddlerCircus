@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: 7224750de30b9d541911d6c5a90b734d
+timeCreated: 1487316742
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tumblr_inline_n9lr9imYKT1si495w_0
+    21300002: tumblr_inline_n9lr9imYKT1si495w_1
+    21300004: tumblr_inline_n9lr9imYKT1si495w_2
+    21300006: tumblr_inline_n9lr9imYKT1si495w_3
+    21300008: tumblr_inline_n9lr9imYKT1si495w_4
+    21300010: tumblr_inline_n9lr9imYKT1si495w_5
+    21300012: tumblr_inline_n9lr9imYKT1si495w_6
+    21300014: tumblr_inline_n9lr9imYKT1si495w_7
+    21300016: tumblr_inline_n9lr9imYKT1si495w_8
+    21300018: tumblr_inline_n9lr9imYKT1si495w_9
+    21300020: tumblr_inline_n9lr9imYKT1si495w_10
+    21300022: tumblr_inline_n9lr9imYKT1si495w_11
+    21300024: tumblr_inline_n9lr9imYKT1si495w_12
+    21300026: tumblr_inline_n9lr9imYKT1si495w_13
+    21300028: tumblr_inline_n9lr9imYKT1si495w_14
+    21300030: tumblr_inline_n9lr9imYKT1si495w_15
+    21300032: tumblr_inline_n9lr9imYKT1si495w_16
+    21300034: tumblr_inline_n9lr9imYKT1si495w_17
+    21300036: tumblr_inline_n9lr9imYKT1si495w_18
+    21300038: tumblr_inline_n9lr9imYKT1si495w_19
+    21300040: tumblr_inline_n9lr9imYKT1si495w_20
+    21300042: tumblr_inline_n9lr9imYKT1si495w_21
+    21300044: tumblr_inline_n9lr9imYKT1si495w_22
+    21300046: tumblr_inline_n9lr9imYKT1si495w_23
+    21300048: tumblr_inline_n9lr9imYKT1si495w_24
+    21300050: tumblr_inline_n9lr9imYKT1si495w_25
+    21300052: tumblr_inline_n9lr9imYKT1si495w_26
+    21300054: tumblr_inline_n9lr9imYKT1si495w_27
+    21300056: tumblr_inline_n9lr9imYKT1si495w_28
+    21300058: tumblr_inline_n9lr9imYKT1si495w_29
+    21300060: tumblr_inline_n9lr9imYKT1si495w_30
+    21300062: tumblr_inline_n9lr9imYKT1si495w_31
+    21300064: tumblr_inline_n9lr9imYKT1si495w_32
+    21300066: tumblr_inline_n9lr9imYKT1si495w_33
+    21300068: tumblr_inline_n9lr9imYKT1si495w_34
+    21300070: tumblr_inline_n9lr9imYKT1si495w_35
+    21300072: tumblr_inline_n9lr9imYKT1si495w_36
+    21300074: tumblr_inline_n9lr9imYKT1si495w_37
+    21300076: tumblr_inline_n9lr9imYKT1si495w_38
+    21300078: tumblr_inline_n9lr9imYKT1si495w_39
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 161.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 161.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 161.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 161.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 161.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 161.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 161.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 161.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 161.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 108.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 108.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 108.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 108.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_15
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 108.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 108.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 108.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 108.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 108.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 55.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 55.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_23
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 55.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 55.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_25
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 55.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 55.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_27
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 55.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 55.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_29
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 55.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_31
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_33
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_36
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_37
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_38
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tumblr_inline_n9lr9imYKT1si495w_39
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2.25
+        width: 50
+        height: 53.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

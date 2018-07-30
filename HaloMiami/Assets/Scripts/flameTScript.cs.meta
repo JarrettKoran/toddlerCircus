@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0ba5f00f0e668ec4692c841d7a63c30a
+timeCreated: 1488511209
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - player: {instanceID: 0}
+  - bullet: {instanceID: 0}
+  - ammoPos: {instanceID: 0}
+  - fireNoise: {fileID: 8300000, guid: 733531b2d68e08449a0bb3045a46a81f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b521d65d42607254bae145d7ec4b8bdd
+timeCreated: 1487561449
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - alienEnemy: {instanceID: 0}
+  - wall: {fileID: 4072989408060642, guid: aa2d61966a2662449b40b33bd0c42fbf, type: 2}
+  - door: {fileID: 4678199006782220, guid: 1cfc396e6441c3f468fc9e8f3cf28879, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

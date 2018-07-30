@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 8b4f1f35c115b0243970b62104d94791
+timeCreated: 1489509561
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - spawnpoint: {instanceID: 0}
+  - spawnpoint2: {instanceID: 0}
+  - spawnpoint3: {instanceID: 0}
+  - spawnpoint4: {instanceID: 0}
+  - alien: {instanceID: 0}
+  - boss: {instanceID: 0}
+  - brood: {instanceID: 0}
+  - font1: {fileID: 12800000, guid: e39c0291083514a31a9b8b673f61c6ed, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

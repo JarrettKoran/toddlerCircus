@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30d7ab3e4bd1f544d935423618c663ad
+timeCreated: 1488597443
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - dualOfFates: {fileID: 8300000, guid: e3657c5c3161aa5479e239edc5dc4545, type: 3}
+  - alien1: {fileID: 8300000, guid: 1e284a2beeb3eed4bbde18a5e7e5b0c6, type: 3}
+  - alien2: {fileID: 8300000, guid: 30d05bd8c016a6d4681c9d154ba93087, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
