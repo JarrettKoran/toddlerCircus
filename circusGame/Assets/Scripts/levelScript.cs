@@ -56,7 +56,7 @@ public class levelScript : MonoBehaviour
 
     void levelUp()
     {
-
+        GameObject.Find("carnieBoi").GetComponent<Animator>().SetTrigger("LevelUp");
     }
 
     void LevelOff()

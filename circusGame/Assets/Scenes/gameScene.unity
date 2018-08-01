@@ -7022,7 +7022,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.054846153, y: 0.3501752}
   m_AnchorMax: {x: 0.65000004, y: 0.5968248}
-  m_AnchoredPosition: {x: -2.4999695, y: -2.550003}
+  m_AnchoredPosition: {x: -2.499939, y: -2.550003}
   m_SizeDelta: {x: 132.6, y: 3.0999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1289626811
@@ -7329,8 +7329,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1433833541}
   - component: {fileID: 1433833540}
-  - component: {fileID: 1433833542}
   - component: {fileID: 1433833543}
+  - component: {fileID: 1433833542}
   m_Layer: 0
   m_Name: carnieBoi
   m_TagString: Untagged
@@ -8648,7 +8648,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2023958468
 RectTransform:
   m_ObjectHideFlags: 0
