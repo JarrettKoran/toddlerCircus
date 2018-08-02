@@ -30,6 +30,7 @@ public class levelScript : MonoBehaviour
         if (level == 11)
         {
             lvlT.text = "You Win!";
+            GameObject.Find("buttonManager").GetComponent<buttonManager>().gameOver = true;
         }
         else if (GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().currLevel > level)
         {
