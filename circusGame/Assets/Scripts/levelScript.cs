@@ -13,6 +13,7 @@ public class levelScript : MonoBehaviour
 
     public GameObject levelMenuUI;
 
+    //private float startTime = 0;
     public Text lvlT;
 
     public DataLogger data;
@@ -28,6 +29,7 @@ public class levelScript : MonoBehaviour
     {
         if (GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().currLevel > level)
         {
+            levelUp();
             level = GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().currLevel;
             lvlT.text = "Level " + level.ToString();
             levelMenuUI.SetActive(true);
@@ -40,6 +42,8 @@ public class levelScript : MonoBehaviour
                 data.totalData["Level"][data.totalData["Level"].Count - 1] = data.totalData["Level"][data.totalData["Level"].Count - 1] + 1;
             }
             //Debug.Log("Current Level is: " + data.totalData["Level"][data.totalData["Level"].Count - 1]);
+            //startTime = Time.time;
+            //GameObject.Find("carnieBoi").GetComponent<Animator>().PlayInFixedTime("Carnie", -1, 3.0f);
 
         }
 
@@ -48,6 +52,11 @@ public class levelScript : MonoBehaviour
             Invoke("LevelOff", 2f);
         }
 
+    }
+
+    void levelUp()
+    {
+        GameObject.Find("carnieBoi").GetComponent<Animator>().SetTrigger("LevelUp");
     }
 
     void LevelOff()
