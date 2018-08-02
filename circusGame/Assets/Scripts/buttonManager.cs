@@ -8,34 +8,7 @@ using Newtonsoft.Json;
 using System.IO;
 
 
-/*public class DataPoint 
-{
-	public float level;
-	public float timeBetweenBalloons;
-	public float timeToOrient;
-	public float fixationTime;
-	public float played;
 
-	
-	public DataPoint(float l, float tb, float tt, float f, float p)
-	{
-		level = l;
-		timeBetweenBalloons = tb;
-		timeToOrient = tt;
-		fixationTime = f;
-		played = f;
-	}
-
-	public DataPoint(float l, float p)
-	{
-		level = l;
-		played = p;
-	}
-
-
-
-}
-*/
 
 public class buttonManager : MonoBehaviour {
 

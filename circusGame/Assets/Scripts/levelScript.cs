@@ -27,7 +27,11 @@ public class levelScript : MonoBehaviour
 	// Update is called once per frame
 	void Update()
     {
-        if (GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().currLevel > level)
+        if (level == 11)
+        {
+            lvlT.text = "You Win!";
+        }
+        else if (GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().currLevel > level)
         {
             levelUp();
             level = GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().currLevel;
@@ -45,7 +49,7 @@ public class levelScript : MonoBehaviour
             //startTime = Time.time;
             //GameObject.Find("carnieBoi").GetComponent<Animator>().PlayInFixedTime("Carnie", -1, 3.0f);
 
-        }
+        } 
 
         if (levelMenuUI.activeSelf == true)
         {
