@@ -69,6 +69,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pop: {fileID: 1919227999864500, guid: 65c82ab6d3f22914f93e888db517f106, type: 2}
+  timeBalloonSpawned: 0
+  balloonShrunk: 0
+  timeToFindBalloon: 0
+  data: {fileID: 0}
+  moving: 0
 --- !u!212 &212210414114201344
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -104,7 +109,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 9823e1af5a385824399e88da4d0d9dd1, type: 3}
+  m_Sprite: {fileID: 21300012, guid: 46da74d16d8abb0478b08abf20805c89, type: 3}
   m_Color: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -8,6 +8,7 @@ TextureImporter:
     21300006: ballon-PNGs_3
     21300008: ballon-PNGs_4
     21300010: ballon-PNGs_5
+    21300012: ballon-PNGs_6
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -225,6 +226,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c9dfe5759dd784944afd94c6651890d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballon-PNGs_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 674
+        width: 167
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea9d61361c39434aa26bbd6dc76dc5e
       vertices: []
       indices: 
       edges: []

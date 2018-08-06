@@ -1,0 +1,2 @@
+{"Level":[2.0],"Time Between Balloons":[6.0955,4.980097,4.667244,2.09525871,1.224266],"Time To Orient":[1.14341974,3.06435585,4.507435,3.32960129,1.29174614],"Fixation Time":[1.95040321,1.77895641,1.72904015,1.74833488,1.79326248]}
+{"Level":2.0,"Time Between Balloons":3.8124733,"Time To Orient":2.66731143,"Fixation Time":1.79999948,"Times Played":3.0}

@@ -13,7 +13,7 @@ public class balloonBehavior : MonoBehaviour
     public DataLogger data;
 
     public bool moving;
-
+    public bool special;
 
     // Use this for initialization
     void Start()
@@ -23,6 +23,7 @@ public class balloonBehavior : MonoBehaviour
         timeToFindBalloon = 0.0f;
 
         moving = true;
+        special = false;
 
         GameObject go = GameObject.Find("DataManager");
         //Logger logger = go.GetComponent<Logger>();
@@ -54,7 +55,23 @@ public class balloonBehavior : MonoBehaviour
 
         if (this.transform.localScale.x <= .3f)
         {
-            GameObject.Find("player").GetComponent<worldScript>().playerPoints++;
+            float poppedTime = Time.time - timeBalloonSpawned;
+            if(special == true)
+            {
+                GameObject.Find("player").GetComponent<worldScript>().playerPoints += 5;
+            }
+            else if (poppedTime <= 4.2)
+            {
+                GameObject.Find("player").GetComponent<worldScript>().playerPoints += 3;
+            }
+            else if (poppedTime <= 5.5)
+            {
+                GameObject.Find("player").GetComponent<worldScript>().playerPoints += 2;
+            }
+            else
+            {
+                GameObject.Find("player").GetComponent<worldScript>().playerPoints++;
+            }
             GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().balloonsPopped++;
             GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().firsttime = true;
             Instantiate(pop, this.transform.position, Quaternion.identity);

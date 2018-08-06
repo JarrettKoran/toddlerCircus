@@ -12,18 +12,19 @@ public class BalloonSpawn : MonoBehaviour {
 	 public Object yellowBalloon;
      public Object blueBalloon;
      public Object whiteBalloon;
+     public Object specialBalloon;
 
      private bool green;
 	 private bool red;
 	 private bool yellow;
      private bool blue;
      private bool white;
+     private bool specc;
 
     public bool playmode = true;
     public bool firsttime = false;
 
 	 public int currLevel = 1;
-     private int nextLevel;
 	 public int balloonsLeft = 10;
 	 public int balloonsPopped = 0;
 
@@ -32,6 +33,7 @@ public class BalloonSpawn : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+        specc = false;
 
         currLevel = 1;
 
@@ -74,6 +76,8 @@ public class BalloonSpawn : MonoBehaviour {
             firsttime = false;
         }
 
+        int specially = 0;
+
 		if (nextActionTime <= 2.5f )
 			nextActionTime = 2.5f;
 
@@ -83,9 +87,22 @@ public class BalloonSpawn : MonoBehaviour {
             if (timer > nextActionTime)
             {
 				timer = 0;
+                specially++;
+                if(specially == 3)
+                {
+                    specc = true;
+                    specially = 0;
+                    Debug.Log("yeet");
+                }
                 if (currLevel < 11)
                 {
-                    if (green)
+                    if(specc)
+                    {
+                        Instantiate(specialBalloon, new Vector3(Random.Range(-9f, 2.75f),
+                            this.transform.position.y, this.transform.position.z), Quaternion.identity);
+                            specc = false;
+                    }
+                    else if (green)
                     {
                         Instantiate(greenBalloon, new Vector3(Random.Range(-9f, 2.75f),
                                 this.transform.position.y, this.transform.position.z), Quaternion.identity);
