@@ -54,7 +54,19 @@ public class balloonBehavior : MonoBehaviour
 
         if (this.transform.localScale.x <= .3f)
         {
-            GameObject.Find("player").GetComponent<worldScript>().playerPoints++;
+            float poppedTime = Time.time - timeBalloonSpawned;
+            if (poppedTime <= 4.2)
+            {
+                GameObject.Find("player").GetComponent<worldScript>().playerPoints += 3;
+            }
+            else if (poppedTime <= 5.5)
+            {
+                GameObject.Find("player").GetComponent<worldScript>().playerPoints += 2;
+            }
+            else
+            {
+                GameObject.Find("player").GetComponent<worldScript>().playerPoints++;
+            }
             GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().balloonsPopped++;
             GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().firsttime = true;
             Instantiate(pop, this.transform.position, Quaternion.identity);

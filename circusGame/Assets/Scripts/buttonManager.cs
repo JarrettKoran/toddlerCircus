@@ -85,6 +85,8 @@ public class buttonManager : MonoBehaviour {
 		return dataPoint;
 	}
 
+    //private string addAllItems(Dictionary<string,float> dic)
+
 	private string recordData(Dictionary<string, float> averageData)
 	{
 		string dataLine = "";
@@ -105,12 +107,14 @@ public class buttonManager : MonoBehaviour {
     public void QuitGame()
     {
 		data.LogAverages();
-		string ad = JsonConvert.SerializeObject(data.avgData);
-		/*string td = JsonConvert.SerializeObject(data.totalData);
+        string td = JsonConvert.SerializeObject(data.totalData);
+        string ad = JsonConvert.SerializeObject(data.avgData);
+        /*string td = JsonConvert.SerializeObject(data.totalData);
 		UnityEngine.Debug.Log(ad);
 		UnityEngine.Debug.Log(td);
 		*/
-		File.AppendAllText(PlayerPrefs.GetString("filename"), ad + "\n");
+        File.AppendAllText(PlayerPrefs.GetString("filename"), td + "\n");
+        File.AppendAllText(PlayerPrefs.GetString("filename"), ad + "\n");
 		File.AppendAllText(PlayerPrefs.GetString("CSVName"), recordData(data.avgData) + "\n");
 		//Done writing to file, destroy all keys
 		PlayerPrefs.DeleteAll();
@@ -132,8 +136,10 @@ public class buttonManager : MonoBehaviour {
         restarted = true;
 		data.LogAverages();
         Cursor.visible = false;
+        string td = JsonConvert.SerializeObject(data.totalData);
         string ad = JsonConvert.SerializeObject(data.avgData);
-		File.AppendAllText(PlayerPrefs.GetString("filename"), ad + "\n");
+        File.AppendAllText(PlayerPrefs.GetString("filename"), td + "\n");
+        File.AppendAllText(PlayerPrefs.GetString("filename"), ad + "\n");
 		File.AppendAllText(PlayerPrefs.GetString("CSVName"), recordData(data.avgData) + "\n");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     	gameOverPanel.SetActive(false);
