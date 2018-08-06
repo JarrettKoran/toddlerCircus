@@ -33,18 +33,34 @@ public class crosshairScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+<<<<<<< HEAD
         /*Vector3 screenPoint = TobiiAPI.GetGazePoint().Screen;
         screenPoint.z = 1f;
         this.transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
         */
+=======
+       // Vector3 screenPoint = TobiiAPI.GetGazePoint().Screen;
+      //  screenPoint.z = 1f;
+      //  this.transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
+        
+        
+>>>>>>> c7ce32d73219e92460a83dbf841a5cb4a9384428
         
 
          //if(!GameObject.Find("PauseMenu").GetComponent<pauseMenu>().gamePaused) 
          //{
+<<<<<<< HEAD
         Vector3 temp = Input.mousePosition;
         temp.z = 10f; // Set this to be the distance you want the object to be placed in front of the camera.
         this.transform.position = Camera.main.ScreenToWorldPoint(temp);
         
+=======
+
+        Vector3 temp = Input.mousePosition;
+        temp.z = 10f; // Set this to be the distance you want the object to be placed in front of the camera.
+        this.transform.position = Camera.main.ScreenToWorldPoint(temp);
+
+>>>>>>> c7ce32d73219e92460a83dbf841a5cb4a9384428
          //} 
 
         GazePoint gaze = TobiiAPI.GetGazePoint();

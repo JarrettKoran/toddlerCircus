@@ -8124,6 +8124,8 @@ MonoBehaviour:
     type: 2}
   whiteBalloon: {fileID: 1370869889916726, guid: f51a9c12767269247a56cf43376e9651,
     type: 2}
+  specialBalloon: {fileID: 1075298012503316, guid: 8f6833cc99c6b264cbc0ab7c2a6aa499,
+    type: 2}
   playmode: 1
   firsttime: 0
   currLevel: 0
