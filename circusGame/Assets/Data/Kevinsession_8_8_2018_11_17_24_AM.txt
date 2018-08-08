@@ -1,0 +1,6 @@
+{"Level":[1.0],"Time Between Balloons":[6.32769775,5.337553],"Time To Orient":[1.54070091,3.62837219],"Fixation Time":[1.74324608,2.36864281],"Times Played":[1.0]}
+{"Level":1.0,"Time Between Balloons":5.83262539,"Time To Orient":2.58453655,"Fixation Time":2.05594444,"Times Played":1.0}
+{"Level":[1.0],"Time Between Balloons":[6.32769775,5.337553],"Time To Orient":[1.54070091,3.62837219],"Fixation Time":[1.74324608,2.36864281],"Times Played":[1.0,1.0]}
+{"Level":1.0,"Time Between Balloons":5.83262539,"Time To Orient":2.58453655,"Fixation Time":2.05594444,"Times Played":1.0}
+{"Level":[1.0],"Time Between Balloons":[6.32769775,5.337553],"Time To Orient":[1.54070091,3.62837219],"Fixation Time":[1.74324608,2.36864281],"Times Played":[1.0,1.0,1.0]}
+{"Level":1.0,"Time Between Balloons":5.83262539,"Time To Orient":2.58453655,"Fixation Time":2.05594444,"Times Played":1.0}
