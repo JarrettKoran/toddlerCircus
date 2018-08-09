@@ -92,7 +92,7 @@ public class BalloonSpawn : MonoBehaviour {
                 {
                     specc = true;
                     specially = 0;
-                    Debug.Log("yeet");
+
                 }
                 if (currLevel < 11)
                 {
