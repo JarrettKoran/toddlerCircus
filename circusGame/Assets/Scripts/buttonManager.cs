@@ -20,6 +20,7 @@ public class buttonManager : MonoBehaviour {
 
 	public DataLogger data;
     private List<string> headerNames = new List<string>();
+    SceneChanger sc;
 
     // Use this for initialization
     void Start () {
@@ -41,8 +42,11 @@ public class buttonManager : MonoBehaviour {
 			format = format.Replace(":", "_");
 			UnityEngine.Debug.Log (format);
 			string session = "session_" + format;
-			string name = location + session + ".txt";
-			PlayerPrefs.SetString("filename", name);
+            string subjectName = PlayerPrefs.GetString("subjectName", "");
+            UnityEngine.Debug.Log("subjectName: " + subjectName);
+            string name = location + subjectName + session + ".txt";
+            UnityEngine.Debug.Log(name);
+            PlayerPrefs.SetString("filename", name);
 		}
 		if(!PlayerPrefs.HasKey("CSVName"))
 		{
@@ -53,7 +57,8 @@ public class buttonManager : MonoBehaviour {
 			format = format.Replace(":", "_");
 			UnityEngine.Debug.Log (format);
 			string session = "session_" + format;
-			string csvName = location + session + ".csv";
+            string subjectName = PlayerPrefs.GetString("subjectName", "");
+            string csvName = location + subjectName + session + ".csv";
 			UnityEngine.Debug.Log ("csvname: " + csvName);
 			PlayerPrefs.SetString("CSVName", csvName);
 			File.AppendAllText(PlayerPrefs.GetString("CSVName"), header());
@@ -193,5 +198,20 @@ public class buttonManager : MonoBehaviour {
     	gameOverPanel.SetActive(false);
     }
 
+    public void GoToMainMenu()
+    {
+        data.LogAverages();
+        data.LogEntry("Times Played", data.avgData["Times Played"]);
+        string td = JsonConvert.SerializeObject(data.totalData);
+        string ad = JsonConvert.SerializeObject(data.avgData);
+        /*string td = JsonConvert.SerializeObject(data.totalData);
+		UnityEngine.Debug.Log(ad);
+		UnityEngine.Debug.Log(td);
+		*/
+        File.AppendAllText(PlayerPrefs.GetString("filename"), td + "\n");
+        File.AppendAllText(PlayerPrefs.GetString("filename"), ad + "\n");
+        File.AppendAllText(PlayerPrefs.GetString("CSVName"), recordData(data.avgData) + "\n");
+        SceneManager.LoadScene(0);
+    }
 
 }
