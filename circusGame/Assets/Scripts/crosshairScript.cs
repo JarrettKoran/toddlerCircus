@@ -33,19 +33,14 @@ public class crosshairScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        // Vector3 screenPoint = TobiiAPI.GetGazePoint().Screen;
+        //  screenPoint.z = 1f;
+        //  this.transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
 
- 
         Vector3 temp = Input.mousePosition;
         temp.z = 10f; // Set this to be the distance you want the object to be placed in front of the camera.
         this.transform.position = Camera.main.ScreenToWorldPoint(temp);
         
-
-
-
-        Vector3 temp = Input.mousePosition;
-        temp.z = 10f; // Set this to be the distance you want the object to be placed in front of the camera.
-        this.transform.position = Camera.main.ScreenToWorldPoint(temp);
-
 
         GazePoint gaze = TobiiAPI.GetGazePoint();
         if(gaze.IsRecent())
@@ -90,7 +85,7 @@ public class crosshairScript : MonoBehaviour {
         if(other.transform.position.y > -1.6f)
             other.GetComponent<balloonBehavior>().moving = false;
         //Decrease size of object (balloon) while looked at
-        if (other.transform.localScale.x >.1 && other.tag != "Respawn")
+        if (other.transform.localScale.x >.001 && other.tag != "Respawn")
         {
             other.transform.localScale -= new Vector3(.007f, .007f, 0);
         }

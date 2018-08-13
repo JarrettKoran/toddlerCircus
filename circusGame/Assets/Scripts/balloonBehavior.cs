@@ -15,6 +15,17 @@ public class balloonBehavior : MonoBehaviour
     public bool moving;
     public bool special;
 
+    //Constructor cause necessary
+    public balloonBehavior(bool spec)
+    {
+        special = spec;
+    }
+
+    public balloonBehavior()
+    {
+        special = false;
+    }
+
     // Use this for initialization
     void Start()
     {
@@ -23,7 +34,6 @@ public class balloonBehavior : MonoBehaviour
         timeToFindBalloon = 0.0f;
 
         moving = true;
-        special = false;
 
         GameObject go = GameObject.Find("DataManager");
         //Logger logger = go.GetComponent<Logger>();
@@ -52,8 +62,17 @@ public class balloonBehavior : MonoBehaviour
             */
 
         }
+        if (this.transform.localScale.x <= .002f && special == true)
+        {
+            Debug.Log("yeet");
+            GameObject.Find("player").GetComponent<worldScript>().playerPoints += 5;
+            GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().balloonsPopped++;
+            GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().firsttime = true;
+            Instantiate(pop, this.transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
+        }
 
-        if (this.transform.localScale.x <= .3f)
+        else if (this.transform.localScale.x <= .3f && special != true)
         {
             float poppedTime = Time.time - timeBalloonSpawned;
             if (poppedTime <= 4.2)
@@ -68,15 +87,6 @@ public class balloonBehavior : MonoBehaviour
             {
                 GameObject.Find("player").GetComponent<worldScript>().playerPoints++;
             }
-            GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().balloonsPopped++;
-            GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().firsttime = true;
-            Instantiate(pop, this.transform.position, Quaternion.identity);
-            Destroy(this.gameObject);
-        }
-        else if(this.transform.localScale.x <= .02f && special == true)
-        {
-            Debug.Log("yeet");
-            GameObject.Find("player").GetComponent<worldScript>().playerPoints += 5;
             GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().balloonsPopped++;
             GameObject.Find("balloonSpawn").GetComponent<BalloonSpawn>().firsttime = true;
             Instantiate(pop, this.transform.position, Quaternion.identity);
