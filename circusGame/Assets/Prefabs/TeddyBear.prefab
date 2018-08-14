@@ -114,6 +114,7 @@ MonoBehaviour:
   timeToFindBalloon: 0
   data: {fileID: 0}
   moving: 0
+  special: 1
 --- !u!212 &212669464609432808
 SpriteRenderer:
   m_ObjectHideFlags: 1
